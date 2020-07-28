@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'open sans';
+    background-image: url(../imagenes/portadaR.png);
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.frmRegistro{
+    width: 350px;
+    background: #5db497b9;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'open sans';
+    
+}
+.frmRegistro h4{
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.control{
+    width: 100%;
+    background: #e6ecf3;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    border: 1px solid #1facc5;
+    font-family: 'open sans';
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.frmRegistro p{
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+}
+.frmRegistro a{
+    color: white;
+    text-decoration: none;
+}
+.frmRegistro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.frmRegistro .boton{
+    width: 100%;
+    background: #7abcdb;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    margin: 16px 0;
+    font-size: 16px;
+}
